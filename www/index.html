@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
-<title>Misiones Pendientes</title>
+<title>Gestiones Personales</title>
 <meta name="theme-color" content="#0E1014">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -324,7 +324,7 @@
     <div>
       <p class="brand-eyebrow">Centro de Mando</p>
       <div class="title-row">
-        <h1 id="appTitle" contenteditable="true" spellcheck="false" onblur="saveTitle(this.textContent)" onkeydown="if(event.key==='Enter'){event.preventDefault();this.blur();}">Misiones Pendientes</h1>
+        <h1 id="appTitle" contenteditable="true" spellcheck="false" onblur="saveTitle(this.textContent)" onkeydown="if(event.key==='Enter'){event.preventDefault();this.blur();}">Gestiones Personales</h1>
         <button class="edit-pencil" onclick="document.getElementById('appTitle').focus()" title="Editar nombre" aria-label="Editar nombre"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></button>
       </div>
       <p class="sub" id="sub">Cargando misiones…</p>
@@ -530,8 +530,8 @@ function flashSave(msg){
 }
 
 /* ---------- título ---------- */
-function applyTitle(v){ const t=(v||'').trim()||'Misiones Pendientes'; document.getElementById('appTitle').textContent=t; document.title=t+' · Centro de Mando'; }
-function saveTitle(txt){ const v=(txt||'').trim()||'Misiones Pendientes'; applyTitle(v); LS.set(TITLE_KEY,v); flashSave(); }
+function applyTitle(v){ const t=(v||'').trim()||'Gestiones Personales'; document.getElementById('appTitle').textContent=t; document.title=t+' · Centro de Mando'; }
+function saveTitle(txt){ const v=(txt||'').trim()||'Gestiones Personales'; applyTitle(v); LS.set(TITLE_KEY,v); flashSave(); }
 
 /* ---------- tema ---------- */
 function applyTheme(t){
