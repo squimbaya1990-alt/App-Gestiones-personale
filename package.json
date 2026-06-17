@@ -1,0 +1,21 @@
+{
+  "name": "app-gestiones-personale",
+  "version": "1.0.0",
+  "description": "Centro de mando personal para gestionar tareas y misiones con soporte offline.",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:45311/git/squimbaya1990-alt/App-Gestiones-personale"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^8.4.0",
+    "@capacitor/core": "^8.4.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "appId": "com.squimbaya.misiones",
+  "appName": "Misiones Pendientes",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#0E1014"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
