@@ -1,0 +1,19 @@
+id,titulo,progreso,prioridad,persona,fecha,hora,icono,timer_ends_at,timer_notified,reminder_min,created_at
+m0,Publicar eBook,90,alta,Lourdes,,,,,false,60,2026-06-23T00:00:00Z
+m1,Contrato del amor privado · Imprimir/Firmar,70,urgente,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m2,Web Recoverfoto.com,70,urgente,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m3,Llamar Sanitas dar de baja,50,alta,Lourdes,,,,,false,60,2026-06-23T00:00:00Z
+m4,Curso de Meta ADS,30,alta,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m5,Renovación Paro,20,alta,Lourdes,2026-07-26,,,,false,60,2026-06-23T00:00:00Z
+m6,Sacar copia llave y carcasa,10,urgente,Steven,2026-06-15,,,,false,60,2026-06-23T00:00:00Z
+m7,Revisar los contactos,10,media,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m8,Copia llave de coche,10,urgente,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m9,Chevrolet: reparar seguro registrar luna,10,alta,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m10,Crear campañas META para ebook · RLC,10,alta,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m11,Cuerda del patio aro,10,alta,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m12,Reparar pared de habitación,10,media,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m13,Devolver Derej HaShem a David,10,media,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m14,Pintar baño,10,media,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m15,Reparar habitación,10,baja,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m16,BBVA · claves,10,baja,Steven,,,,,false,60,2026-06-23T00:00:00Z
+m17,CaixaBank · claves,20,baja,Steven,,,,,false,60,2026-06-23T00:00:00Z
